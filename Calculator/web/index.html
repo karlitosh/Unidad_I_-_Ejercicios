@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+*Nombre: index.html
+*Objetivo: WebServices (GlassFish)
+           Formulario html + jsp que calcula las 4 operaciones aritmeticas
+           básicas en un Servlet de Java.
+*Autor: Ing. Carlos Alberto Cásares Farías
+*Fecha: 07/11/2015
+-->
+<html>
+    <head>
+        <title>Calculadora con html + servlet + jsp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <form action="OptServlet" method="post">
+            <div>
+                <br>Numero 1  <input type="text" name="num1" id="num1" />
+                <p>Numero 2  <input type="text" name="num2" id="num2" /></p>
+                <input type="submit" name="opt" id="suma" value="+"/>
+                <input type="submit" name="opt" id="resta" value="-"/>
+                <input type="submit" name="opt" id="multi" value="x"/>
+                <input type="submit" name="opt" id="div" value="/"/>                
+            </div>
+            
+        </form>   
+        
+    </body>
+</html>
